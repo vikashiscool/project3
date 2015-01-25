@@ -1,0 +1,36 @@
+Edit article
+<%= render 'form' %>
+
+<!-- <h1><%= @article.title %></h1>
+<p><%= @article.body %></p>
+ -->
+<!-- 
+<%= form_form :article, url: article_path(@article), method: :patch do |f| %>
+
+ <% if @article.errors.any? %>
+ 	<div id="effor_explanation">
+ 		<h2>
+ 			<ul>
+ 				<% @article.errors.full_messages.each do |msg| %>
+ 					<li><% msg %></li>
+ 				<% end %>
+ 			</ul>
+ 		</h2>
+ 	</div>
+ <% end %>	
+
+<p>
+		<%= f.label :title %><br>
+		<%= f.text_field :title %>
+</p>		
+<p>
+		<%= f.label :text %><br>
+		<%= f.text_field :text %>
+</p>
+<p>		
+ 		<%= f.submit %>
+</p>
+
+<% end %>
+ -->		
+<% link_to 'Back', articles_path %>
